@@ -4,11 +4,13 @@
   "description": "Graduate project",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --watch index.js node index.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.3"
   },
   "devDependencies": {
@@ -16,6 +18,7 @@
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-react": "^7.11.1",
+    "nodemon": "^1.18.4"
   }
 }
